@@ -44,3 +44,6 @@
     width: 2rem;
     height: 2rem;
 }
+.cart:hover{
+    color: #fe956f;
+}
