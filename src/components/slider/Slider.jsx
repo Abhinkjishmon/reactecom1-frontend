@@ -13,8 +13,11 @@ const Slider = () => {
     return (
         <div className="s-container">
             <Swiper
-            modules={[Pagination, Navigation]}
-                sidesPerView={3} spaceBetween={40} slidesPerGroup={1} loop={true}>
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+                navigation={true}
+                loopFillGroupWuthBlank={true}
+                slidesPerView={3} spaceBetween={40} slidesPerGroup={1} loop={true}>
                 {SliderProducts.map((slide, i) => (
                     <SwiperSlide>
                         <div className='left-s'>
