@@ -16,7 +16,7 @@ const Slider = () => {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
                 navigation={true}
-                loopFillGroupWuthBlank={true}
+                loopFillGroupWithBlank={true}
                 slidesPerView={3} spaceBetween={40} slidesPerGroup={1} loop={true}>
                 {SliderProducts.map((slide, i) => (
                     <SwiperSlide>
