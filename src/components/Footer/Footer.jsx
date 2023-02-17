@@ -23,7 +23,7 @@ const Footer = () => {
                     <span className={css.pngLine}>
                         {" "}
                         <PhoneIcon className={css.icon}/>
-                        <a href="mob:987-654-3210"></a>
+                        <a href="mob:987-654-3210">987-654-3210</a>
                     </span>
                     
                     <span className={css.pngLine}>
@@ -63,12 +63,11 @@ const Footer = () => {
                     </span>
                 </div>
             </div>
-
-            <div className={css.copyRight}>
+        </div>
+        <div className={css.copyRight}>
                 <span>Copyright ©2023 by aCart, Inc.</span>
                 <span>All rights reserved</span>
             </div>
-        </div>
     </div>
   )
 }
